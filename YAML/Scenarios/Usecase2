@@ -1,1 +1,24 @@
-
+---
+# This is my 2nd YAML file
+Users:
+  - &User1
+      Name: ABC
+      Age: 35
+      Address:
+        Street: 123 Kings Road
+        City: Bangalore
+        ZipCode: 600001
+  - &User2
+      Name: DEF
+      Age: 40
+      Address: 
+        Street: 456 Queens Road
+        City: Bangalore
+        ZipCode: 600002
+  - &User3
+      Name: GHI
+      Age: 20
+      Address: 
+        Street: 789 Prince Road
+        City: Bangalore
+        ZipCode: 600003
