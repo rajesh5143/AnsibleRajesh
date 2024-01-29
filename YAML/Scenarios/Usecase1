@@ -1,1 +1,11 @@
-
+---
+# This is my 1st YAML file
+ConfigFile:
+  DBConfig:
+    Hostname: localhost
+    Port: 3306
+    Username: myuser
+    Password: mypassword
+  AppSetting:
+    AppName: myapp
+    Debug: true
