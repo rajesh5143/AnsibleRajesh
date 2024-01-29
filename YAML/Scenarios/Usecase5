@@ -1,1 +1,14 @@
-
+---
+Default: &Default
+  Timeout: 30 
+  Retries: 3
+VM:
+  - Database VM:
+      host: db.ex.com
+      port: 5432
+      default: *Default
+  - API VM:
+      host: api.ex.com
+      port: 4080
+      default: *Default
+ 
