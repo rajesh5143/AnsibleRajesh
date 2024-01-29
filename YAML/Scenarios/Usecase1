@@ -1,6 +1,6 @@
 ---
 # This is my 1st YAML file
-ConfigFile:
+- ConfigFile:
   DBConfig:
     Hostname: localhost
     Port: 3306
