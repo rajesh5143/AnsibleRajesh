@@ -1,1 +1,14 @@
+---
+Items:
+  - Fruits: 
+     - Fruit1: 
+        Name: Apple
+        Price: 10
+     - Fruit2: 
+        Name: Orange
+        Price: 20
+  - Vegetables: 
+     - Veg1: 
+         Name: Carrots
+         Price: 30
 
